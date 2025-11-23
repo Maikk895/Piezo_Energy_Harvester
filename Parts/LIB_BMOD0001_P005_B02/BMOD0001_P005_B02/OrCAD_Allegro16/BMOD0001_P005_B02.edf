@@ -1,0 +1,154 @@
+
+(EDIF
+  (rename &BMOD0001_P005_B02 "BMOD0001_P005_B02")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 11 23 15 46 51)
+      (dataOrigin "1665163/1829342/2.50/2/3/Capacitor Polarised")
+      (program "SamacSys ECAD Model BMOD0001_P005_B02"
+        (version "1.10"))))
+  (library
+  (rename &BMOD0001_P005_B02 "BMOD0001_P005_B02")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BMOD0001_P005_B02 "BMOD0001_P005_B02")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "C")
+          (property (rename PACKAGENAME "PackageName") (string "BMOD0001_P005_B02"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "BMOD0001P005B02"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "723-BMOD0001P005B02"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Maxwell-Technologies/BMOD0001-P005-B02?qs=W0yvOO0ixfEzFv8%2F5TnOWA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Maxwell Technologies"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BMOD0001 P005 B02"))
+          (property (rename &Description "Description") (string "1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf"))
+          (property (rename &Height "Height") (string "23 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BMOD0001_P005_B02"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &P "P")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &M "M")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &P)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -100))))
+            )
+            (portImplementation
+              (name &M)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 300 -100) (pt 400 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 0)
+                  (pt 100 -200)
+                  (pt 130 -200)
+                  (pt 130 0)
+                  (pt 100 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 80 -50)
+                  (pt 40 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 60 -30)
+                  (pt 60 -70)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -100)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 300 -100)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 200 0)
+                  (pt 200 -200)
+                  (pt 170 -200)
+                  (pt 170 0)
+                  (pt 200 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify 24) (orientation R0) (origin (pt 250 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify 24) (orientation R0) (origin (pt 250 -20))))
+          )
+        )
+      )
+    )
+  )
+)

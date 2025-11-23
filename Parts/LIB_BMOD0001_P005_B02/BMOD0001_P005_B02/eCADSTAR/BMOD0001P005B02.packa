@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BMOD0001_P005_B02"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-08-22-06:37:26)
+    (mountForm default
+        (footprintRef "BMOD0001P005B02")
+        (spec "System")
+    )
+)

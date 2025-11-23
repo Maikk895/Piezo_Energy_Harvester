@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BMOD0001_P005_B02
+#/1665163/1829342/2.50/2/3/Capacitor Polarised
+DEF BMOD0001_P005_B02 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "BMOD0001_P005_B02" 350 150 50 H V L CNN
+F2 "BMOD0001P005B02" 350 50 50 H I L CNN
+F3 "https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf" 350 -50 50 H I L CNN
+F4 "1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C" 350 -150 50 H I L CNN "Description"
+F5 "23" 350 -250 50 H I L CNN "Height"
+F6 "723-BMOD0001P005B02" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxwell-Technologies/BMOD0001-P005-B02?qs=W0yvOO0ixfEzFv8%2F5TnOWA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Maxwell Technologies" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "BMOD0001 P005 B02" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

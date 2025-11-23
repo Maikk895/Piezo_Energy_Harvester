@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BMOD0001_P005_B02"
+   (description "1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C")
+   (family "CAP")
+   (package "BMOD0001P005B02")
+   (attribute "Datasheet Link" "https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf")
+   (attribute "Geometry.Height" "23mm")
+   (attribute "Mouser Part Number" "723-BMOD0001P005B02")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxwell-Technologies/BMOD0001-P005-B02?qs=W0yvOO0ixfEzFv8%2F5TnOWA%3D%3D")
+   (attribute "Manufacturer_Name" "Maxwell Technologies")
+   (attribute "Manufacturer_Part_Number" "BMOD0001 P005 B02")
+   (gate
+    (symbol "BMOD0001_P005_B02")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "BMOD0001_P005_B02"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BMOD0001P005B02"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.35 3.54)
+      (pt 13.97 3.54)
+      (pt 13.97 -8)
+      (pt -5.35 -8)
+      (pt -5.35 3.54))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.4 2.5)
+      (arc (pt 0.400 2.500) (pt -4.350 -7.000) (pt 5.150 2.500) (start 180.0) (sweep 90.0))
+      (pt 0.4 -7)
+      (pt 8.2 -7)
+      (arc (pt 8.200 -7.000) (pt 3.430 -7.000) (pt 12.970 2.540) (start 180.0) (sweep -90.0))
+      (pt 8.2 2.54)
+      (pt 0.4 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.2 2.54)
+      (pt 0.4 2.5)
+      (arc (pt 0.400 2.500) (pt -4.326 -7.000) (pt 5.174 2.500) (start 179.4) (sweep 90.3))
+      (pt 0.4 -7)
+      (pt 8.2 -7)
+      (arc (pt 8.200 -7.000) (pt 3.450 -7.000) (pt 12.950 2.500) (start 180.0) (sweep -90.0))
+      (pt 8.2 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 3.1)
+      (arc (pt 0.000 3.100) (pt -0.050 3.100) (pt 0.050 3.200) (start 180.0) (sweep -90.0))
+      (pt 0 3.2)
+      (arc (pt 0.000 3.200) (pt -0.050 3.100) (pt 0.050 3.200) (start 180.0) (sweep 90.0))
+      (pt 0 3.1))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 8.600 0.000) (padstack 2))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (square 1.300))
+   )
+   (padstack 2
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (round 1.300))
+   )
+   (model "BMOD0001_P005_B02.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1665163"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-08-22-06:37:26)
+    (utime 2025-08-22-06:37:26)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BMOD0001_P005_B02")
+)
+
+
+(pinAssign "ECS_1665163"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-08-22-06:37:26)
+    (utime 2025-08-22-06:37:26)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1665163")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BMOD0001_P005_B02")
+)
+
+
+(part "BMOD0001_P005_B02"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-08-22-06:37:26)
+    (utime 2025-08-22-06:37:26)
+    (packageRef "BMOD0001_P005_B02")
+    (pinAssignRef "ECS_1665163")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C")
+    (property "Mouser_Part_Number" "723-BMOD0001P005B02")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxwell-Technologies/BMOD0001-P005-B02?qs=W0yvOO0ixfEzFv8%2F5TnOWA%3D%3D")
+    (property "Manufacturer_Name" "Maxwell Technologies")
+    (property "Manufacturer_Part_Number" "BMOD0001 P005 B02")
+    (property "Datasheet_Link" "https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf")
+    (property "compAreaTopHeight" 23)
+)
+
+

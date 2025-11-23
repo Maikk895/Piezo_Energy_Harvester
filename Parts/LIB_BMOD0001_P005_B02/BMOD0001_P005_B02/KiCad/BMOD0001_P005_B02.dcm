@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMOD0001_P005_B02
+D 1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C
+K
+F https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf
+$ENDCMP
+#
+#End Doc Library

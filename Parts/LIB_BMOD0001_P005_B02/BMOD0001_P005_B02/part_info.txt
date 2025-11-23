@@ -1,0 +1,9 @@
+Manufacturer=Maxwell Technologies
+PartNumber=BMOD0001 P005 B02
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=2
+Version=1.10
+Released=2025-08-22 06:37:26
+Downloaded=2025-11-23 15:46:51
+3D=Y

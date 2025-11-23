@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BMOD0001_P005_B02'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxwell Technologies", "BMOD0001 P005 B02" (!) = "", "BMOD0001P005B02", "Other", "723-BMOD0001P005B02", "https://www.mouser.co.uk/ProductDetail/Maxwell-Technologies/BMOD0001-P005-B02?qs=W0yvOO0ixfEzFv8%2F5TnOWA%3D%3D", "1.5 F (EDLC) supercondensators 5 V Radiaal, blik 143mOhm 1000 uur @ 85C -40C ~ 65C 1000 uur @ 85C", "https://maxwell.com/wp-content/uploads/2021/09/5.0V-1.5F_ds_3001960-EN.5-1.pdf", "23 mm"
+END_PART
+
+END.
