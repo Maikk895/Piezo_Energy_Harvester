@@ -2147,7 +2147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Piezo_EH_footprints:WE-HEPC_5030"
 			(at 124.46 104.14 0)
 			(effects
 				(font
