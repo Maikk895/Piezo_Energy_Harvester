@@ -2379,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 157.7848 107.95 0)
 			(effects
 				(font
