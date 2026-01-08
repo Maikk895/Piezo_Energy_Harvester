@@ -1726,6 +1726,70 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
+		(at 73.66 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ba0248-6302-4062-9c62-702459a6094c")
+		(property "Reference" "J2"
+			(at 73.914 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 65.278 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5268a445-2a02-4ca5-8606-b5d7acce4889")
+		)
+		(instances
+			(project "Piezo_Energy_Harvester"
+				(path "/2025adb1-c4aa-48e7-bd62-33e2593b3a69"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
 		(at 73.66 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2355,32 +2419,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 158.75 111.76 180)
+		(lib_id "Device:C_Polarized")
+		(at 158.75 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c716773e-28c9-415a-9e37-37e85ce1f6b1")
+		(uuid "c6b70c51-076f-4df1-9d37-859f772ddb1b")
 		(property "Reference" "C4"
-			(at 156.464 109.474 0)
+			(at 153.924 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47u 6V"
-			(at 162.814 114.554 0)
+			(at 159.512 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 157.7848 107.95 0)
+			(at 159.7152 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -2397,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -2407,79 +2473,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a47b3491-cee5-4d46-9aff-565df6faf8be")
+			(uuid "c2d8a7cc-c77a-473d-ad87-940b50123f86")
 		)
 		(pin "2"
-			(uuid "a087b774-b979-4826-8d66-9838c19c1a2b")
+			(uuid "0418529d-d735-4d9e-860d-4423eac395a8")
 		)
 		(instances
 			(project "Piezo_Energy_Harvester"
 				(path "/2025adb1-c4aa-48e7-bd62-33e2593b3a69"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 73.66 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed2af110-2f90-430c-b5d4-ddf4ac635fcb")
-		(property "Reference" "J2"
-			(at 73.914 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 65.278 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "028f5977-6c90-4b96-b3ac-bfb81923c73e")
-		)
-		(instances
-			(project "Piezo_Energy_Harvester"
-				(path "/2025adb1-c4aa-48e7-bd62-33e2593b3a69"
-					(reference "J2")
 					(unit 1)
 				)
 			)
